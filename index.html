@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
     <title>Responsive Websites By Ian Nicholas</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -27,16 +29,12 @@
                     <li>
                         <a href="#lv-card" id="lv">Laboratorio Visual</a>
                     </li>
-                    <!--<li>
-                        <a href="#IOM" id="iom">IOM</a>
-                    </li>-->
-                    
                 </ul>
             </div>
         </section> 
     </header>
     <main>
-        <section id="hero">
+        <div id="hero">
             <div id="hero-card">
                 <h1>Web Ninja Ian Nicholas</h1>
                 <p>A little bit about me, hmm. About 10 years ago I thought to my self how does what we spend so much time of our lives looking at actually work. It sparked great curiousity so I began to teach myself how to build websites. As I dug deeper I realized maybe some schooling would help. So I enrolled in an Open-Source Web Development course at Palomar College. I finished that in 2016. Now I'm ready for a real carrer change so here I am!</p>
@@ -58,34 +56,34 @@
             <div id="hero-img">
                 <img id="hero-image" src="./img/hero-img.jpg" alt="Web Devopment Computer">
             </div>
-        </section>
+        </div>
         <div id="second-row">
-        <section id="row1">
-            <div id="esbelta-card">
-                <p></p>
-                <a href = "http://esbelta.com.mx" target="blank">
-                    <img class= "esbelta-img" src="./img/esbelta.PNG" alt="Esbelta Screenshot" href="http://www.esbelta.com.mx">
-                </a>
+            <div id="row1">
+                <div id="esbelta-card">
+                    <a href = "http://esbelta.com.mx" target="blank">
+                        <img class= "esbelta-img" src="./img/esbelta.PNG" alt="Esbelta Screenshot" href="http://www.esbelta.com.mx">
+                    </a>
+                </div>
             </div>
-        </section>
-        <section class = "row2">
-            <div id="ctr-card">
-                <a href = "https://www.calltaxrelief.com/" target="blank">
-                    <img class= "ctr" src="./img/ctr.PNG" alt="Call Tax Relief Screenshot" href="http://www.esbelta.com.mx">
-                </a>
+            <div id = "row2">
+                <div id="ctr-card">
+                    <a href = "https://www.calltaxrelief.com/" target="blank">
+                        <img class= "ctr" src="./img/ctr.PNG" alt="Call Tax Relief Screenshot" href="http://www.esbelta.com.mx">
+                    </a>
+                </div>
+                <div id="lv-card">
+                    <a href = "http://laboratoriovisual.com/" target="blank">
+                        <img class= "lv" src="./img/lv.PNG" alt="Esbelta Screenshot" href="http://www.esbelta.com.mx">
+                    </a>
+                </div>
             </div>
-            <div id="lv-card">
-                <a href = "http://laboratoriovisual.com/" target="blank">
-                    <img class= "lv" src="./img/lv.PNG" alt="Esbelta Screenshot" href="http://www.esbelta.com.mx">
-                </a>
-            </div>
-        </section>
-    </div>
+        </div>
+
     </main>
     <footer>
-        <section>
-            <div>
-                <h1 class="left">
+        <div id="footer">
+            <div class="left">
+                <h1 claass="footer-h1">
                     My Dope Footer
                 </h1>
             </div>
@@ -105,7 +103,8 @@
                     </li>
                 </ul>
             </div>
-        </section>
-        </main>
+        </div>
+    </footer>
+</main>
 </body>
 </html>
